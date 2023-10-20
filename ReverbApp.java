@@ -5,7 +5,7 @@ import java.io.IOException;
 public class ReverbApp {
     public static void main(String[] args) {
         String inputFile = "reverb_project/input.wav";
-        String outputFile = "Users/josh/Documents/GitHubreverb_project/output_reverb.wav";
+        String outputFile = "reverb_project/output_reverb.wav";
 
         try {
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(inputFile));
